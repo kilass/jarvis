@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cache de diagnostics
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+yarn-error.log
+*.launch
+
+# Répertoires de dépendances
+node_modules/
+jspm_packages/
+
+# Fichiers de build Next.js (sauf le cache statique)
+.next/
+!.next/cache/
+
+# Fichiers d'environnement (NE JAMAIS COMMIT !)
+.env
+.env*.local
+*.env
+
+# Autres
+.DS_Store
+Thumbs.db
