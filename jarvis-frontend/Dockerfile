@@ -30,7 +30,7 @@ WORKDIR /app
 # Copier les dépendances de production depuis l'étape 'builder'
 COPY --from=builder /app/node_modules ./node_modules
 # Copier les fichiers de configuration Next.js et package.json
-COPY --from=builder /app/next.config.mjs ./
+COPY --from=builder /app/next.config.ts ./
 COPY --from=builder /app/package.json ./
 # Copier les assets publics (images, etc.)
 COPY --from=builder /app/public ./public

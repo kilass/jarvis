@@ -1,0 +1,6 @@
+# Ignore node_modules and other build artifacts
+node_modules
+.next
+npm-debug.log
+README.md
+.DS_Store
